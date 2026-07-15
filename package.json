@@ -1,6 +1,6 @@
 {
   "name": "ai-prompt-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Log AI prompts with tokens, cost estimates, and latency for OpenAI, Azure OpenAI, Anthropic, and Gemini.",
   "type": "module",
   "main": "./src/index.js",
