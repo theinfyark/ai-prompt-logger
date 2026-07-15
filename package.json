@@ -1,0 +1,44 @@
+{
+  "name": "ai-prompt-logger",
+  "version": "1.0.0",
+  "description": "Log AI prompts with tokens, cost estimates, and latency for OpenAI, Azure OpenAI, Anthropic, and Gemini.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/logger.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "openai",
+    "anthropic",
+    "gemini",
+    "azure",
+    "prompt",
+    "logger",
+    "tokens",
+    "cost"
+  ],
+  "author": "anilachary",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theinfyark/ai-prompt-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theinfyark/ai-prompt-logger/issues"
+  },
+  "homepage": "https://github.com/theinfyark/ai-prompt-logger#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
